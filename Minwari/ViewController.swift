@@ -41,17 +41,12 @@ class ViewController: UIViewController, UITextFieldDelegate {
             print("5",moneynumber)
             print("6",peoplenumber)
             
-            oneresultnumber = moneynumber / peoplenumber
-            resultnumber = oneresultnumber - oneresultnumber % 10
-            hasunumber = moneynumber - resultnumber * peoplenumber
         }
         else{
             
             print("7",moneynumber)
             print("8",peoplenumber)
             
-            resultnumber = moneynumber / peoplenumber
-            hasunumber = moneynumber % peoplenumber
         }
     }
     
