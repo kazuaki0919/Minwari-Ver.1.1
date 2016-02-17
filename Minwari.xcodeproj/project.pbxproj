@@ -14,6 +14,14 @@
 		7208748C1C32858B00380660 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7208748A1C32858B00380660 /* LaunchScreen.storyboard */; };
 		720874971C32858B00380660 /* MinwariTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720874961C32858B00380660 /* MinwariTests.swift */; };
 		720874A21C32858B00380660 /* MinwariUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720874A11C32858B00380660 /* MinwariUITests.swift */; };
+		72662AFF1C465E1500A8B714 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72662AFE1C465E1500A8B714 /* ResultViewController.swift */; };
+		72A25F9C1C42156200DEFE31 /* 1yen.png in Resources */ = {isa = PBXBuildFile; fileRef = 72A25F981C42156200DEFE31 /* 1yen.png */; };
+		72A25F9D1C42156200DEFE31 /* 10yen.png in Resources */ = {isa = PBXBuildFile; fileRef = 72A25F991C42156200DEFE31 /* 10yen.png */; };
+		72A25F9E1C42156200DEFE31 /* Button01.png in Resources */ = {isa = PBXBuildFile; fileRef = 72A25F9A1C42156200DEFE31 /* Button01.png */; };
+		72A25F9F1C42156200DEFE31 /* Button02.png in Resources */ = {isa = PBXBuildFile; fileRef = 72A25F9B1C42156200DEFE31 /* Button02.png */; };
+		72A25FA61C42189A00DEFE31 /* 人数Label2.png in Resources */ = {isa = PBXBuildFile; fileRef = 72A25FA41C42189A00DEFE31 /* 人数Label2.png */; };
+		72A25FA71C42189A00DEFE31 /* 料金Label2.png in Resources */ = {isa = PBXBuildFile; fileRef = 72A25FA51C42189A00DEFE31 /* 料金Label2.png */; };
+		72A25FA91C42231300DEFE31 /* 単位選択Label.png in Resources */ = {isa = PBXBuildFile; fileRef = 72A25FA81C42231300DEFE31 /* 単位選択Label.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,14 @@
 		7208749D1C32858B00380660 /* MinwariUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinwariUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		720874A11C32858B00380660 /* MinwariUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinwariUITests.swift; sourceTree = "<group>"; };
 		720874A31C32858B00380660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72662AFE1C465E1500A8B714 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultViewController.swift; path = ../ResultViewController.swift; sourceTree = "<group>"; };
+		72A25F981C42156200DEFE31 /* 1yen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1yen.png; sourceTree = "<group>"; };
+		72A25F991C42156200DEFE31 /* 10yen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10yen.png; sourceTree = "<group>"; };
+		72A25F9A1C42156200DEFE31 /* Button01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button01.png; sourceTree = "<group>"; };
+		72A25F9B1C42156200DEFE31 /* Button02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button02.png; sourceTree = "<group>"; };
+		72A25FA41C42189A00DEFE31 /* 人数Label2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "人数Label2.png"; path = "../人数Label2.png"; sourceTree = "<group>"; };
+		72A25FA51C42189A00DEFE31 /* 料金Label2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "料金Label2.png"; path = "../料金Label2.png"; sourceTree = "<group>"; };
+		72A25FA81C42231300DEFE31 /* 単位選択Label.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "単位選択Label.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +115,15 @@
 			children = (
 				720874811C32858B00380660 /* AppDelegate.swift */,
 				720874831C32858B00380660 /* ViewController.swift */,
+				72662AFE1C465E1500A8B714 /* ResultViewController.swift */,
 				720874851C32858B00380660 /* Main.storyboard */,
+				72A25FA51C42189A00DEFE31 /* 料金Label2.png */,
+				72A25FA41C42189A00DEFE31 /* 人数Label2.png */,
+				72A25FA81C42231300DEFE31 /* 単位選択Label.png */,
+				72A25F981C42156200DEFE31 /* 1yen.png */,
+				72A25F991C42156200DEFE31 /* 10yen.png */,
+				72A25F9A1C42156200DEFE31 /* Button01.png */,
+				72A25F9B1C42156200DEFE31 /* Button02.png */,
 				720874881C32858B00380660 /* Assets.xcassets */,
 				7208748A1C32858B00380660 /* LaunchScreen.storyboard */,
 				7208748D1C32858B00380660 /* Info.plist */,
@@ -229,9 +253,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72A25F9F1C42156200DEFE31 /* Button02.png in Resources */,
+				72A25F9C1C42156200DEFE31 /* 1yen.png in Resources */,
 				7208748C1C32858B00380660 /* LaunchScreen.storyboard in Resources */,
+				72A25FA91C42231300DEFE31 /* 単位選択Label.png in Resources */,
+				72A25FA61C42189A00DEFE31 /* 人数Label2.png in Resources */,
+				72A25F9E1C42156200DEFE31 /* Button01.png in Resources */,
+				72A25F9D1C42156200DEFE31 /* 10yen.png in Resources */,
 				720874891C32858B00380660 /* Assets.xcassets in Resources */,
 				720874871C32858B00380660 /* Main.storyboard in Resources */,
+				72A25FA71C42189A00DEFE31 /* 料金Label2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +289,7 @@
 			files = (
 				720874841C32858B00380660 /* ViewController.swift in Sources */,
 				720874821C32858B00380660 /* AppDelegate.swift in Sources */,
+				72662AFF1C465E1500A8B714 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,7 +380,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -386,7 +418,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -398,9 +430,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Minwari/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.Minwari;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -409,9 +443,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Minwari/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.Minwari;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -482,6 +518,7 @@
 				720874A81C32858B00380660 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		720874A91C32858B00380660 /* Build configuration list for PBXNativeTarget "MinwariTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +527,7 @@
 				720874AB1C32858B00380660 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		720874AC1C32858B00380660 /* Build configuration list for PBXNativeTarget "MinwariUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +536,7 @@
 				720874AE1C32858B00380660 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
