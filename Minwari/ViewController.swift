@@ -76,18 +76,17 @@ class ViewController: UIViewController, UITextFieldDelegate {
             
             
             if TaniSwich.on == true {
+                //SwichがONの時の動作
+                resultnumber = moneynumber / peoplenumber
+                hasunumber = moneynumber % peoplenumber
                 
+            }else{
+                //Swichがオフの時の動作
                 oneresultnumber = moneynumber / peoplenumber
                 resultnumber = oneresultnumber - oneresultnumber % 10
                 hasunumber = moneynumber - resultnumber * peoplenumber
-            }else{
-                
-                resultnumber = moneynumber / peoplenumber
-                hasunumber = moneynumber % peoplenumber
             }
-            
-
-    
+        
             resultViewController.sendresultnumber = self.resultnumber   //ResultViewControllerに値を渡す
             resultViewController.sendhasunumber = self.hasunumber   //ResultViewControllerに値を渡す
             
