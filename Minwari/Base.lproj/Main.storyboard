@@ -24,29 +24,29 @@
                                     <segue destination="1rZ-0c-z5S" kind="presentation" identifier="ResultView" id="d23-x6-BAO"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="料金Label2.png" translatesAutoresizingMaskIntoConstraints="NO" id="fcg-1r-1s0">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="料金Label.png" translatesAutoresizingMaskIntoConstraints="NO" id="fcg-1r-1s0">
                                 <rect key="frame" x="-1" y="77" width="322" height="90"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Swichラベル.png" translatesAutoresizingMaskIntoConstraints="NO" id="gRW-sE-SJB">
                                 <rect key="frame" x="-1" y="322" width="322" height="100"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="人数Label2.png" translatesAutoresizingMaskIntoConstraints="NO" id="SVt-8E-A7O">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="人数Label.png" translatesAutoresizingMaskIntoConstraints="NO" id="SVt-8E-A7O">
                                 <rect key="frame" x="-1" y="194" width="322" height="90"/>
                             </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="料金を入力して下さい。" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="DC8-ph-ulI">
-                                <rect key="frame" x="68" y="105" width="185" height="30"/>
+                                <rect key="frame" x="68" y="107" width="185" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="人数を入力して下さい。" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="V0m-Y8-GJJ">
-                                <rect key="frame" x="68" y="222" width="185" height="30"/>
+                                <rect key="frame" x="68" y="224" width="185" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uwp-NZ-LaI">
-                                <rect key="frame" x="185" y="356" width="51" height="31"/>
+                                <rect key="frame" x="185" y="357" width="51" height="31"/>
                             </switch>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -93,18 +93,6 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="端数ラベル.png" translatesAutoresizingMaskIntoConstraints="NO" id="1gi-h1-FoU">
                                 <rect key="frame" x="-1" y="359" width="321" height="50"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="割り勘しました。" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ewr-yr-oAa">
-                                <rect key="frame" x="51" y="28" width="245" height="45"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="です。" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ghL-6F-epA">
-                                <rect key="frame" x="230" y="281" width="90" height="50"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bUn-R9-d4G">
                                 <rect key="frame" x="99" y="359" width="146" height="50"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -120,12 +108,15 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="支払料金1人" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f1d-Pz-eOn">
-                                <rect key="frame" x="0.0" y="145" width="230" height="50"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Label1.png" translatesAutoresizingMaskIntoConstraints="NO" id="Uti-XD-esk">
+                                <rect key="frame" x="0.0" y="148" width="320" height="50"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="タイトルLabel.png" translatesAutoresizingMaskIntoConstraints="NO" id="Xbs-wA-Coe">
+                                <rect key="frame" x="0.0" y="60" width="320" height="50"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Label2.png" translatesAutoresizingMaskIntoConstraints="NO" id="S8u-hR-scd">
+                                <rect key="frame" x="0.0" y="281" width="320" height="50"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -144,10 +135,13 @@
     <resources>
         <image name="Button01.png" width="390" height="104"/>
         <image name="Button02.png" width="461" height="90"/>
+        <image name="Label1.png" width="320" height="54"/>
+        <image name="Label2.png" width="320" height="54"/>
         <image name="Resultラベル.png" width="320" height="93"/>
         <image name="Swichラベル.png" width="320" height="100"/>
-        <image name="人数Label2.png" width="377" height="94"/>
-        <image name="料金Label2.png" width="377" height="94"/>
+        <image name="タイトルLabel.png" width="320" height="52"/>
+        <image name="人数Label.png" width="377" height="94"/>
+        <image name="料金Label.png" width="377" height="94"/>
         <image name="端数ラベル.png" width="321" height="50"/>
     </resources>
 </document>
