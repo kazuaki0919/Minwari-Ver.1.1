@@ -14,6 +14,40 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UITextFieldDelegate {
     var window: UIWindow?
 
 
+    let storyboard: UIStoryboard = self.grabStoryboard()
+    if let window = window {
+        window.rootViewController = storyboard.instantiateInitialViewController(); UIViewController(); UIViewController();  UIViewController()
+    }
+    
+    self.window?.makeKeyAndVisible()
+    
+    return true
+}
+
+func grabStoryboard() -> UIStoryboard {
+    var storyboard = UIStoryboard()
+    let height = UIScreen.mainScreen().bounds.size.height
+    
+    //iPhone6 Plus
+    if height == 736 {
+        storyboard = UIStoryboard(name: "5.5inchStoryboard", bundle: nil)
+        //iPhone6
+    }else if height == 667 {
+        storyboard = UIStoryboard(name: "Main", bundle: nil)
+        //iPhone4/4s
+    }else if height == 480 {
+        storyboard = UIStoryboard(name: "3.5inchStoryboard", bundle: nil)
+        //iPad
+    }else if height == 1024 {
+        storyboard = UIStoryboard(name: "iPad", bundle: nil)
+        //iPhone5・5s・5c
+    }else {
+        storyboard = UIStoryboard(name: "4inchStoryboard", bundle: nil)
+    }
+    return storyboard
+}
+
+
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         return true

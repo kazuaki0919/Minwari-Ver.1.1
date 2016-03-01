@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7205716D1C85ED5B000A0FBE /* 3.5inch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7205716C1C85ED5B000A0FBE /* 3.5inch.storyboard */; };
+		7205716F1C85ED6C000A0FBE /* 4.7inch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7205716E1C85ED6C000A0FBE /* 4.7inch.storyboard */; };
+		720571711C85ED88000A0FBE /* 5.5inch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 720571701C85ED88000A0FBE /* 5.5inch.storyboard */; };
 		720874821C32858B00380660 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720874811C32858B00380660 /* AppDelegate.swift */; };
 		720874841C32858B00380660 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720874831C32858B00380660 /* ViewController.swift */; };
-		720874871C32858B00380660 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 720874851C32858B00380660 /* Main.storyboard */; };
+		720874871C32858B00380660 /* 4inch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 720874851C32858B00380660 /* 4inch.storyboard */; };
 		720874891C32858B00380660 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 720874881C32858B00380660 /* Assets.xcassets */; };
 		7208748C1C32858B00380660 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7208748A1C32858B00380660 /* LaunchScreen.storyboard */; };
 		720874971C32858B00380660 /* MinwariTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720874961C32858B00380660 /* MinwariTests.swift */; };
@@ -46,10 +49,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7205716C1C85ED5B000A0FBE /* 3.5inch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = 3.5inch.storyboard; path = ../3.5inch.storyboard; sourceTree = "<group>"; };
+		7205716E1C85ED6C000A0FBE /* 4.7inch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = 4.7inch.storyboard; path = ../4.7inch.storyboard; sourceTree = "<group>"; };
+		720571701C85ED88000A0FBE /* 5.5inch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = 5.5inch.storyboard; path = ../5.5inch.storyboard; sourceTree = "<group>"; };
 		7208747E1C32858B00380660 /* Minwari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Minwari.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		720874811C32858B00380660 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		720874831C32858B00380660 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		720874861C32858B00380660 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		720874861C32858B00380660 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/4inch.storyboard; sourceTree = "<group>"; };
 		720874881C32858B00380660 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7208748B1C32858B00380660 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7208748D1C32858B00380660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -124,7 +130,10 @@
 				720874811C32858B00380660 /* AppDelegate.swift */,
 				720874831C32858B00380660 /* ViewController.swift */,
 				72662AFE1C465E1500A8B714 /* ResultViewController.swift */,
-				720874851C32858B00380660 /* Main.storyboard */,
+				720571701C85ED88000A0FBE /* 5.5inch.storyboard */,
+				7205716E1C85ED6C000A0FBE /* 4.7inch.storyboard */,
+				720874851C32858B00380660 /* 4inch.storyboard */,
+				7205716C1C85ED5B000A0FBE /* 3.5inch.storyboard */,
 				7244AB8E1C84878700CF36EA /* Minwari パーツセット */,
 				720874881C32858B00380660 /* Assets.xcassets */,
 				7208748A1C32858B00380660 /* LaunchScreen.storyboard */,
@@ -292,6 +301,8 @@
 				7244ABB11C84878700CF36EA /* Button02.png in Resources */,
 				7208748C1C32858B00380660 /* LaunchScreen.storyboard in Resources */,
 				7244ABCB1C848AA100CF36EA /* Label1.png in Resources */,
+				7205716D1C85ED5B000A0FBE /* 3.5inch.storyboard in Resources */,
+				720571711C85ED88000A0FBE /* 5.5inch.storyboard in Resources */,
 				7244ABC21C84878700CF36EA /* 人数Label.png in Resources */,
 				7244ABCC1C848AA100CF36EA /* Label2.png in Resources */,
 				7244ABC51C84878700CF36EA /* 料金Label.png in Resources */,
@@ -301,7 +312,8 @@
 				7244ABB01C84878700CF36EA /* Button01.png in Resources */,
 				7244ABC01C84878700CF36EA /* Swichラベル.png in Resources */,
 				720874891C32858B00380660 /* Assets.xcassets in Resources */,
-				720874871C32858B00380660 /* Main.storyboard in Resources */,
+				7205716F1C85ED6C000A0FBE /* 4.7inch.storyboard in Resources */,
+				720874871C32858B00380660 /* 4inch.storyboard in Resources */,
 				7244ABC31C84878700CF36EA /* 単位選択Label.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -365,12 +377,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		720874851C32858B00380660 /* Main.storyboard */ = {
+		720874851C32858B00380660 /* 4inch.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				720874861C32858B00380660 /* Base */,
 			);
-			name = Main.storyboard;
+			name = 4inch.storyboard;
 			sourceTree = "<group>";
 		};
 		7208748A1C32858B00380660 /* LaunchScreen.storyboard */ = {
