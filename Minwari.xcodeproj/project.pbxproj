@@ -22,7 +22,6 @@
 		7244ABBF1C84878700CF36EA /* Resultラベル.png in Resources */ = {isa = PBXBuildFile; fileRef = 7244ABA31C84878700CF36EA /* Resultラベル.png */; };
 		7244ABC01C84878700CF36EA /* Swichラベル.png in Resources */ = {isa = PBXBuildFile; fileRef = 7244ABA41C84878700CF36EA /* Swichラベル.png */; };
 		7244ABC21C84878700CF36EA /* 人数Label.png in Resources */ = {isa = PBXBuildFile; fileRef = 7244ABA61C84878700CF36EA /* 人数Label.png */; };
-		7244ABC31C84878700CF36EA /* 単位選択Label.png in Resources */ = {isa = PBXBuildFile; fileRef = 7244ABA71C84878700CF36EA /* 単位選択Label.png */; };
 		7244ABC51C84878700CF36EA /* 料金Label.png in Resources */ = {isa = PBXBuildFile; fileRef = 7244ABA91C84878700CF36EA /* 料金Label.png */; };
 		7244ABC61C84878700CF36EA /* 端数ラベル.png in Resources */ = {isa = PBXBuildFile; fileRef = 7244ABAA1C84878700CF36EA /* 端数ラベル.png */; };
 		7244ABCB1C848AA100CF36EA /* Label1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7244ABC91C848AA100CF36EA /* Label1.png */; };
@@ -70,7 +69,6 @@
 		7244ABA31C84878700CF36EA /* Resultラベル.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resultラベル.png"; sourceTree = "<group>"; };
 		7244ABA41C84878700CF36EA /* Swichラベル.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Swichラベル.png"; sourceTree = "<group>"; };
 		7244ABA61C84878700CF36EA /* 人数Label.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "人数Label.png"; sourceTree = "<group>"; };
-		7244ABA71C84878700CF36EA /* 単位選択Label.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "単位選択Label.png"; sourceTree = "<group>"; };
 		7244ABA91C84878700CF36EA /* 料金Label.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "料金Label.png"; sourceTree = "<group>"; };
 		7244ABAA1C84878700CF36EA /* 端数ラベル.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "端数ラベル.png"; sourceTree = "<group>"; };
 		7244ABC91C848AA100CF36EA /* Label1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Label1.png; path = ../../Minwari/Label1.png; sourceTree = "<group>"; };
@@ -184,7 +182,6 @@
 				7244ABA31C84878700CF36EA /* Resultラベル.png */,
 				7244ABA41C84878700CF36EA /* Swichラベル.png */,
 				7244ABA61C84878700CF36EA /* 人数Label.png */,
-				7244ABA71C84878700CF36EA /* 単位選択Label.png */,
 				7244ABA91C84878700CF36EA /* 料金Label.png */,
 				7244ABAA1C84878700CF36EA /* 端数ラベル.png */,
 				7244ABC91C848AA100CF36EA /* Label1.png */,
@@ -314,7 +311,6 @@
 				720874891C32858B00380660 /* Assets.xcassets in Resources */,
 				7205716F1C85ED6C000A0FBE /* 4.7inch.storyboard in Resources */,
 				720874871C32858B00380660 /* 4inch.storyboard in Resources */,
-				7244ABC31C84878700CF36EA /* 単位選択Label.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

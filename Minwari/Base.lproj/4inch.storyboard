@@ -109,13 +109,13 @@
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Label1.png" translatesAutoresizingMaskIntoConstraints="NO" id="Uti-XD-esk">
-                                <rect key="frame" x="0.0" y="145" width="320" height="55"/>
+                                <rect key="frame" x="0.0" y="146" width="320" height="55"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="タイトルLabel.png" translatesAutoresizingMaskIntoConstraints="NO" id="Xbs-wA-Coe">
                                 <rect key="frame" x="0.0" y="50" width="320" height="60"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Label2.png" translatesAutoresizingMaskIntoConstraints="NO" id="S8u-hR-scd">
-                                <rect key="frame" x="0.0" y="283" width="320" height="55"/>
+                                <rect key="frame" x="0.0" y="282" width="320" height="55"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
