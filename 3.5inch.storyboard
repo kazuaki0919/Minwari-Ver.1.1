@@ -19,10 +19,9 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8EN-I8-p1R">
                                 <rect key="frame" x="0.0" y="393" width="333" height="100"/>
-                                <state key="normal" title="Button" image="Button01.png"/>
+                                <state key="normal" title="Button" image="割り勘ボタン.png"/>
                                 <connections>
-                                    <action selector="tapView:" destination="Uks-qt-3Zc" eventType="touchUpInside" id="MFo-EH-g2y"/>
-                                    <segue destination="WSx-O8-1gQ" kind="presentation" id="VK4-GU-eFs"/>
+                                    <segue destination="WSx-O8-1gQ" kind="presentation" identifier="ResultView" id="VK4-GU-eFs"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="料金Label.png" translatesAutoresizingMaskIntoConstraints="NO" id="d56-SQ-AgV">
@@ -64,7 +63,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6CJ-MX-b3u" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="neV-Bo-sIh"/>
+                <tapGestureRecognizer id="neV-Bo-sIh">
+                    <connections>
+                        <action selector="tapView:" destination="Uks-qt-3Zc" id="kxM-X8-EOs"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="181" y="330"/>
         </scene>
@@ -82,7 +85,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dgM-LB-0G7">
                                 <rect key="frame" x="-73" y="390" width="393" height="90"/>
-                                <state key="normal" title="Button" image="Button02.png"/>
+                                <state key="normal" title="Button" image="TOPボタン.png"/>
                                 <connections>
                                     <action selector="top:" destination="WSx-O8-1gQ" eventType="touchUpInside" id="bX8-xa-RF7"/>
                                 </connections>
@@ -129,14 +132,14 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Button01.png" width="390" height="104"/>
-        <image name="Button02.png" width="461" height="90"/>
         <image name="Label1.png" width="320" height="54"/>
         <image name="Label2.png" width="320" height="54"/>
         <image name="Resultラベル.png" width="320" height="93"/>
         <image name="Swichラベル.png" width="320" height="100"/>
+        <image name="TOPボタン.png" width="461" height="90"/>
         <image name="タイトルLabel.png" width="320" height="52"/>
         <image name="人数Label.png" width="377" height="94"/>
+        <image name="割り勘ボタン.png" width="390" height="104"/>
         <image name="料金Label.png" width="377" height="94"/>
         <image name="端数ラベル.png" width="321" height="50"/>
     </resources>

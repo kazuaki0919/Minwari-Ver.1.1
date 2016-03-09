@@ -18,38 +18,41 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="料金Label.png" translatesAutoresizingMaskIntoConstraints="NO" id="d6i-b2-SMs">
-                                <rect key="frame" x="0.0" y="75" width="375" height="90"/>
+                                <rect key="frame" x="0.0" y="90" width="375" height="90"/>
                             </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="料金を入力して下さい。" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="NRU-1I-lvr">
-                                <rect key="frame" x="95" y="105" width="185" height="30"/>
+                                <rect key="frame" x="95" y="120" width="185" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="人数Label.png" translatesAutoresizingMaskIntoConstraints="NO" id="72l-3x-nor">
-                                <rect key="frame" x="0.0" y="195" width="375" height="90"/>
+                                <rect key="frame" x="0.0" y="230" width="375" height="90"/>
                             </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="人数を入力して下さい。" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="3GU-5R-9d4">
-                                <rect key="frame" x="95" y="225" width="185" height="30"/>
+                                <rect key="frame" x="95" y="260" width="185" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V3x-Qs-M6S">
                                 <rect key="frame" x="0.0" y="581" width="390" height="100"/>
-                                <state key="normal" title="Button" image="Button01.png"/>
+                                <state key="normal" title="Button" image="割り勘ボタン.png"/>
                                 <connections>
-                                    <segue destination="HE4-Ic-odL" kind="presentation" id="bK3-YX-I6m"/>
+                                    <segue destination="HE4-Ic-odL" kind="presentation" identifier="ResultView" id="bK3-YX-I6m"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Swichラベル.png" translatesAutoresizingMaskIntoConstraints="NO" id="JNG-aQ-fM2">
-                                <rect key="frame" x="0.0" y="325" width="375" height="110"/>
+                                <rect key="frame" x="0.0" y="370" width="375" height="110"/>
                             </imageView>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="po6-Zv-5aM">
-                                <rect key="frame" x="224" y="364" width="51" height="31"/>
+                                <rect key="frame" x="224" y="409" width="51" height="31"/>
                             </switch>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="sYK-Vy-9BY" appends="YES" id="3W5-zg-OLq"/>
+                        </connections>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
@@ -61,7 +64,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U2J-AO-6KD" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="sYK-Vy-9BY">
                     <connections>
-                        <action selector="tapView:" destination="3mH-4T-HvZ" id="qbt-SL-7Rf"/>
+                        <action selector="tapView:" destination="3mH-4T-HvZ" id="wm5-ZI-pMg"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
@@ -80,39 +83,39 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="端数ラベル.png" translatesAutoresizingMaskIntoConstraints="NO" id="a1b-iT-Kix">
-                                <rect key="frame" x="0.0" y="400" width="375" height="55"/>
+                                <rect key="frame" x="0.0" y="420" width="375" height="55"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tkL-vv-jw0">
-                                <rect key="frame" x="128" y="400" width="146" height="54"/>
+                                <rect key="frame" x="128" y="420" width="146" height="54"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Resultラベル.png" translatesAutoresizingMaskIntoConstraints="NO" id="aRY-aN-2UH">
-                                <rect key="frame" x="0.0" y="205" width="375" height="90"/>
+                                <rect key="frame" x="0.0" y="225" width="375" height="90"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RV8-mK-FA0">
-                                <rect key="frame" x="0.0" y="200" width="285" height="90"/>
+                                <rect key="frame" x="0.0" y="220" width="285" height="90"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Label1.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZmB-jf-4zl">
-                                <rect key="frame" x="0.0" y="145" width="375" height="65"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="タイトルLabel.png" translatesAutoresizingMaskIntoConstraints="NO" id="rUd-Qe-Igr">
                                 <rect key="frame" x="0.0" y="50" width="375" height="60"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Label2.png" translatesAutoresizingMaskIntoConstraints="NO" id="6CL-do-cAu">
-                                <rect key="frame" x="0.0" y="292" width="375" height="65"/>
+                                <rect key="frame" x="0.0" y="312" width="375" height="65"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nwI-nX-0gs">
                                 <rect key="frame" x="-86" y="577" width="461" height="90"/>
-                                <state key="normal" title="Button" image="Button02.png"/>
+                                <state key="normal" title="Button" image="TOPボタン.png"/>
                                 <connections>
                                     <action selector="top:" destination="HE4-Ic-odL" eventType="touchUpInside" id="OqS-b3-AVI"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Label1.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZmB-jf-4zl">
+                                <rect key="frame" x="0.0" y="165" width="375" height="65"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -128,14 +131,14 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Button01.png" width="390" height="104"/>
-        <image name="Button02.png" width="461" height="90"/>
         <image name="Label1.png" width="320" height="54"/>
         <image name="Label2.png" width="320" height="54"/>
         <image name="Resultラベル.png" width="320" height="93"/>
         <image name="Swichラベル.png" width="320" height="100"/>
+        <image name="TOPボタン.png" width="461" height="90"/>
         <image name="タイトルLabel.png" width="320" height="52"/>
         <image name="人数Label.png" width="377" height="94"/>
+        <image name="割り勘ボタン.png" width="390" height="104"/>
         <image name="料金Label.png" width="377" height="94"/>
         <image name="端数ラベル.png" width="321" height="50"/>
     </resources>

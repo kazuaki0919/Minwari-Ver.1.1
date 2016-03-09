@@ -22,8 +22,8 @@ class ResultViewController: UIViewController {
         resultLabel.text = String(sendresultnumber)
         hasuLabel.text = String(sendhasunumber)
         
-//        print("11",sendresultnumber)
-//        print("12",sendhasunumber)
+        print("11",sendresultnumber)
+        print("12",sendhasunumber)
         
         // Do any additional setup after loading the view.
     }

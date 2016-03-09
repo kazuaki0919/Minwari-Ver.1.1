@@ -17,17 +17,22 @@
 		7208748C1C32858B00380660 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7208748A1C32858B00380660 /* LaunchScreen.storyboard */; };
 		720874971C32858B00380660 /* MinwariTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720874961C32858B00380660 /* MinwariTests.swift */; };
 		720874A21C32858B00380660 /* MinwariUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720874A11C32858B00380660 /* MinwariUITests.swift */; };
-		7244ABB01C84878700CF36EA /* Button01.png in Resources */ = {isa = PBXBuildFile; fileRef = 7244AB921C84878700CF36EA /* Button01.png */; };
-		7244ABB11C84878700CF36EA /* Button02.png in Resources */ = {isa = PBXBuildFile; fileRef = 7244AB931C84878700CF36EA /* Button02.png */; };
-		7244ABBF1C84878700CF36EA /* Resultラベル.png in Resources */ = {isa = PBXBuildFile; fileRef = 7244ABA31C84878700CF36EA /* Resultラベル.png */; };
-		7244ABC01C84878700CF36EA /* Swichラベル.png in Resources */ = {isa = PBXBuildFile; fileRef = 7244ABA41C84878700CF36EA /* Swichラベル.png */; };
-		7244ABC21C84878700CF36EA /* 人数Label.png in Resources */ = {isa = PBXBuildFile; fileRef = 7244ABA61C84878700CF36EA /* 人数Label.png */; };
-		7244ABC51C84878700CF36EA /* 料金Label.png in Resources */ = {isa = PBXBuildFile; fileRef = 7244ABA91C84878700CF36EA /* 料金Label.png */; };
-		7244ABC61C84878700CF36EA /* 端数ラベル.png in Resources */ = {isa = PBXBuildFile; fileRef = 7244ABAA1C84878700CF36EA /* 端数ラベル.png */; };
-		7244ABCB1C848AA100CF36EA /* Label1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7244ABC91C848AA100CF36EA /* Label1.png */; };
-		7244ABCC1C848AA100CF36EA /* Label2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7244ABCA1C848AA100CF36EA /* Label2.png */; };
-		7244ABCE1C848CD200CF36EA /* タイトルLabel.png in Resources */ = {isa = PBXBuildFile; fileRef = 7244ABCD1C848CD200CF36EA /* タイトルLabel.png */; };
 		72662AFF1C465E1500A8B714 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72662AFE1C465E1500A8B714 /* ResultViewController.swift */; };
+		72F4BDB11C90018B00BAB405 /* TOPボタン.png in Resources */ = {isa = PBXBuildFile; fileRef = 72F4BD851C90018B00BAB405 /* TOPボタン.png */; };
+		72F4BDB21C90018B00BAB405 /* 割り勘ボタン.png in Resources */ = {isa = PBXBuildFile; fileRef = 72F4BD861C90018B00BAB405 /* 割り勘ボタン.png */; };
+		72F4BDB51C90018B00BAB405 /* Topボタン.png in Resources */ = {isa = PBXBuildFile; fileRef = 72F4BD8B1C90018B00BAB405 /* Topボタン.png */; };
+		72F4BDB61C90018B00BAB405 /* 割勘ボタン.png in Resources */ = {isa = PBXBuildFile; fileRef = 72F4BD8C1C90018B00BAB405 /* 割勘ボタン.png */; };
+		72F4BDC31C90018B00BAB405 /* Label1.png in Resources */ = {isa = PBXBuildFile; fileRef = 72F4BD9D1C90018B00BAB405 /* Label1.png */; };
+		72F4BDC41C90018B00BAB405 /* Label2.png in Resources */ = {isa = PBXBuildFile; fileRef = 72F4BD9E1C90018B00BAB405 /* Label2.png */; };
+		72F4BDC51C90018B00BAB405 /* Resultラベル.png in Resources */ = {isa = PBXBuildFile; fileRef = 72F4BD9F1C90018B00BAB405 /* Resultラベル.png */; };
+		72F4BDC61C90018B00BAB405 /* Swichラベル.png in Resources */ = {isa = PBXBuildFile; fileRef = 72F4BDA01C90018B00BAB405 /* Swichラベル.png */; };
+		72F4BDC71C90018B00BAB405 /* タイトルLabel.png in Resources */ = {isa = PBXBuildFile; fileRef = 72F4BDA11C90018B00BAB405 /* タイトルLabel.png */; };
+		72F4BDC81C90018B00BAB405 /* 人数Label.png in Resources */ = {isa = PBXBuildFile; fileRef = 72F4BDA21C90018B00BAB405 /* 人数Label.png */; };
+		72F4BDC91C90018B00BAB405 /* 料金Label.png in Resources */ = {isa = PBXBuildFile; fileRef = 72F4BDA31C90018B00BAB405 /* 料金Label.png */; };
+		72F4BDCA1C90018B00BAB405 /* 端数ラベル.png in Resources */ = {isa = PBXBuildFile; fileRef = 72F4BDA41C90018B00BAB405 /* 端数ラベル.png */; };
+		72F4BDCB1C90018B00BAB405 /* Swichラベル.png in Resources */ = {isa = PBXBuildFile; fileRef = 72F4BDA61C90018B00BAB405 /* Swichラベル.png */; };
+		72F4BDCC1C90018B00BAB405 /* 人数Label.png in Resources */ = {isa = PBXBuildFile; fileRef = 72F4BDA71C90018B00BAB405 /* 人数Label.png */; };
+		72F4BDCD1C90018B00BAB405 /* 料金Label.png in Resources */ = {isa = PBXBuildFile; fileRef = 72F4BDA81C90018B00BAB405 /* 料金Label.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,17 +69,22 @@
 		7208749D1C32858B00380660 /* MinwariUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinwariUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		720874A11C32858B00380660 /* MinwariUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinwariUITests.swift; sourceTree = "<group>"; };
 		720874A31C32858B00380660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7244AB921C84878700CF36EA /* Button01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button01.png; sourceTree = "<group>"; };
-		7244AB931C84878700CF36EA /* Button02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button02.png; sourceTree = "<group>"; };
-		7244ABA31C84878700CF36EA /* Resultラベル.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resultラベル.png"; sourceTree = "<group>"; };
-		7244ABA41C84878700CF36EA /* Swichラベル.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Swichラベル.png"; sourceTree = "<group>"; };
-		7244ABA61C84878700CF36EA /* 人数Label.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "人数Label.png"; sourceTree = "<group>"; };
-		7244ABA91C84878700CF36EA /* 料金Label.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "料金Label.png"; sourceTree = "<group>"; };
-		7244ABAA1C84878700CF36EA /* 端数ラベル.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "端数ラベル.png"; sourceTree = "<group>"; };
-		7244ABC91C848AA100CF36EA /* Label1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Label1.png; path = ../../Minwari/Label1.png; sourceTree = "<group>"; };
-		7244ABCA1C848AA100CF36EA /* Label2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Label2.png; path = ../../Minwari/Label2.png; sourceTree = "<group>"; };
-		7244ABCD1C848CD200CF36EA /* タイトルLabel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "タイトルLabel.png"; path = "../../Minwari/タイトルLabel.png"; sourceTree = "<group>"; };
 		72662AFE1C465E1500A8B714 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultViewController.swift; path = ../ResultViewController.swift; sourceTree = "<group>"; };
+		72F4BD851C90018B00BAB405 /* TOPボタン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TOPボタン.png"; sourceTree = "<group>"; };
+		72F4BD861C90018B00BAB405 /* 割り勘ボタン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "割り勘ボタン.png"; sourceTree = "<group>"; };
+		72F4BD8B1C90018B00BAB405 /* Topボタン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Topボタン.png"; sourceTree = "<group>"; };
+		72F4BD8C1C90018B00BAB405 /* 割勘ボタン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "割勘ボタン.png"; sourceTree = "<group>"; };
+		72F4BD9D1C90018B00BAB405 /* Label1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Label1.png; sourceTree = "<group>"; };
+		72F4BD9E1C90018B00BAB405 /* Label2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Label2.png; sourceTree = "<group>"; };
+		72F4BD9F1C90018B00BAB405 /* Resultラベル.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resultラベル.png"; sourceTree = "<group>"; };
+		72F4BDA01C90018B00BAB405 /* Swichラベル.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Swichラベル.png"; sourceTree = "<group>"; };
+		72F4BDA11C90018B00BAB405 /* タイトルLabel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "タイトルLabel.png"; sourceTree = "<group>"; };
+		72F4BDA21C90018B00BAB405 /* 人数Label.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "人数Label.png"; sourceTree = "<group>"; };
+		72F4BDA31C90018B00BAB405 /* 料金Label.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "料金Label.png"; sourceTree = "<group>"; };
+		72F4BDA41C90018B00BAB405 /* 端数ラベル.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "端数ラベル.png"; sourceTree = "<group>"; };
+		72F4BDA61C90018B00BAB405 /* Swichラベル.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Swichラベル.png"; sourceTree = "<group>"; };
+		72F4BDA71C90018B00BAB405 /* 人数Label.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "人数Label.png"; sourceTree = "<group>"; };
+		72F4BDA81C90018B00BAB405 /* 料金Label.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "料金Label.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,7 +142,7 @@
 				7205716E1C85ED6C000A0FBE /* 4.7inch.storyboard */,
 				720874851C32858B00380660 /* 4inch.storyboard */,
 				7205716C1C85ED5B000A0FBE /* 3.5inch.storyboard */,
-				7244AB8E1C84878700CF36EA /* Minwari パーツセット */,
+				72F4BD821C90018B00BAB405 /* Minwari パーツセット */,
 				720874881C32858B00380660 /* Assets.xcassets */,
 				7208748A1C32858B00380660 /* LaunchScreen.storyboard */,
 				7208748D1C32858B00380660 /* Info.plist */,
@@ -158,37 +168,74 @@
 			path = MinwariUITests;
 			sourceTree = "<group>";
 		};
-		7244AB8E1C84878700CF36EA /* Minwari パーツセット */ = {
+		72F4BD821C90018B00BAB405 /* Minwari パーツセット */ = {
 			isa = PBXGroup;
 			children = (
-				7244AB8F1C84878700CF36EA /* Button */,
-				7244AB961C84878700CF36EA /* Label */,
+				72F4BD831C90018B00BAB405 /* Button */,
+				72F4BD8F1C90018B00BAB405 /* Label */,
 			);
 			path = "Minwari パーツセット";
 			sourceTree = SOURCE_ROOT;
 		};
-		7244AB8F1C84878700CF36EA /* Button */ = {
+		72F4BD831C90018B00BAB405 /* Button */ = {
 			isa = PBXGroup;
 			children = (
-				7244AB921C84878700CF36EA /* Button01.png */,
-				7244AB931C84878700CF36EA /* Button02.png */,
+				72F4BD841C90018B00BAB405 /* 3.5,4,4.7inch用 */,
+				72F4BD871C90018B00BAB405 /* 5.5inch用 */,
 			);
 			path = Button;
 			sourceTree = "<group>";
 		};
-		7244AB961C84878700CF36EA /* Label */ = {
+		72F4BD841C90018B00BAB405 /* 3.5,4,4.7inch用 */ = {
 			isa = PBXGroup;
 			children = (
-				7244ABA31C84878700CF36EA /* Resultラベル.png */,
-				7244ABA41C84878700CF36EA /* Swichラベル.png */,
-				7244ABA61C84878700CF36EA /* 人数Label.png */,
-				7244ABA91C84878700CF36EA /* 料金Label.png */,
-				7244ABAA1C84878700CF36EA /* 端数ラベル.png */,
-				7244ABC91C848AA100CF36EA /* Label1.png */,
-				7244ABCA1C848AA100CF36EA /* Label2.png */,
-				7244ABCD1C848CD200CF36EA /* タイトルLabel.png */,
+				72F4BD851C90018B00BAB405 /* TOPボタン.png */,
+				72F4BD861C90018B00BAB405 /* 割り勘ボタン.png */,
+			);
+			path = "3.5,4,4.7inch用";
+			sourceTree = "<group>";
+		};
+		72F4BD871C90018B00BAB405 /* 5.5inch用 */ = {
+			isa = PBXGroup;
+			children = (
+				72F4BD8B1C90018B00BAB405 /* Topボタン.png */,
+				72F4BD8C1C90018B00BAB405 /* 割勘ボタン.png */,
+			);
+			path = "5.5inch用";
+			sourceTree = "<group>";
+		};
+		72F4BD8F1C90018B00BAB405 /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				72F4BD901C90018B00BAB405 /* 3.5,4,4.7inch用 */,
+				72F4BDA51C90018B00BAB405 /* 5.5inch用 */,
 			);
 			path = Label;
+			sourceTree = "<group>";
+		};
+		72F4BD901C90018B00BAB405 /* 3.5,4,4.7inch用 */ = {
+			isa = PBXGroup;
+			children = (
+				72F4BD9D1C90018B00BAB405 /* Label1.png */,
+				72F4BD9E1C90018B00BAB405 /* Label2.png */,
+				72F4BD9F1C90018B00BAB405 /* Resultラベル.png */,
+				72F4BDA01C90018B00BAB405 /* Swichラベル.png */,
+				72F4BDA11C90018B00BAB405 /* タイトルLabel.png */,
+				72F4BDA21C90018B00BAB405 /* 人数Label.png */,
+				72F4BDA31C90018B00BAB405 /* 料金Label.png */,
+				72F4BDA41C90018B00BAB405 /* 端数ラベル.png */,
+			);
+			path = "3.5,4,4.7inch用";
+			sourceTree = "<group>";
+		};
+		72F4BDA51C90018B00BAB405 /* 5.5inch用 */ = {
+			isa = PBXGroup;
+			children = (
+				72F4BDA61C90018B00BAB405 /* Swichラベル.png */,
+				72F4BDA71C90018B00BAB405 /* 人数Label.png */,
+				72F4BDA81C90018B00BAB405 /* 料金Label.png */,
+			);
+			path = "5.5inch用";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,22 +342,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7244ABB11C84878700CF36EA /* Button02.png in Resources */,
+				72F4BDC81C90018B00BAB405 /* 人数Label.png in Resources */,
+				72F4BDCA1C90018B00BAB405 /* 端数ラベル.png in Resources */,
+				72F4BDCC1C90018B00BAB405 /* 人数Label.png in Resources */,
+				72F4BDC31C90018B00BAB405 /* Label1.png in Resources */,
+				72F4BDB21C90018B00BAB405 /* 割り勘ボタン.png in Resources */,
 				7208748C1C32858B00380660 /* LaunchScreen.storyboard in Resources */,
-				7244ABCB1C848AA100CF36EA /* Label1.png in Resources */,
+				72F4BDB51C90018B00BAB405 /* Topボタン.png in Resources */,
 				7205716D1C85ED5B000A0FBE /* 3.5inch.storyboard in Resources */,
+				72F4BDB61C90018B00BAB405 /* 割勘ボタン.png in Resources */,
+				72F4BDCB1C90018B00BAB405 /* Swichラベル.png in Resources */,
+				72F4BDC61C90018B00BAB405 /* Swichラベル.png in Resources */,
+				72F4BDC51C90018B00BAB405 /* Resultラベル.png in Resources */,
+				72F4BDCD1C90018B00BAB405 /* 料金Label.png in Resources */,
 				720571711C85ED88000A0FBE /* 5.5inch.storyboard in Resources */,
-				7244ABC21C84878700CF36EA /* 人数Label.png in Resources */,
-				7244ABCC1C848AA100CF36EA /* Label2.png in Resources */,
-				7244ABC51C84878700CF36EA /* 料金Label.png in Resources */,
-				7244ABC61C84878700CF36EA /* 端数ラベル.png in Resources */,
-				7244ABBF1C84878700CF36EA /* Resultラベル.png in Resources */,
-				7244ABCE1C848CD200CF36EA /* タイトルLabel.png in Resources */,
-				7244ABB01C84878700CF36EA /* Button01.png in Resources */,
-				7244ABC01C84878700CF36EA /* Swichラベル.png in Resources */,
 				720874891C32858B00380660 /* Assets.xcassets in Resources */,
 				7205716F1C85ED6C000A0FBE /* 4.7inch.storyboard in Resources */,
+				72F4BDC41C90018B00BAB405 /* Label2.png in Resources */,
+				72F4BDC91C90018B00BAB405 /* 料金Label.png in Resources */,
 				720874871C32858B00380660 /* 4inch.storyboard in Resources */,
+				72F4BDC71C90018B00BAB405 /* タイトルLabel.png in Resources */,
+				72F4BDB11C90018B00BAB405 /* TOPボタン.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

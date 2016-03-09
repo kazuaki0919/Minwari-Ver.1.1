@@ -17,37 +17,37 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TsJ-bh-sUh">
-                                <rect key="frame" x="0.0" y="649" width="333" height="100"/>
-                                <state key="normal" title="Button" image="Button01.png"/>
-                                <connections>
-                                    <segue destination="6IQ-Fb-GBr" kind="presentation" id="llD-sS-sWe"/>
-                                </connections>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="料金Label.png" translatesAutoresizingMaskIntoConstraints="NO" id="Wzp-h7-hM4">
-                                <rect key="frame" x="0.0" y="243" width="415" height="100"/>
+                                <rect key="frame" x="0.0" y="100" width="415" height="100"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Swichラベル.png" translatesAutoresizingMaskIntoConstraints="NO" id="M0X-Up-NM4">
-                                <rect key="frame" x="0.0" y="493" width="414" height="105"/>
+                                <rect key="frame" x="0.0" y="430" width="414" height="118"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="人数Label.png" translatesAutoresizingMaskIntoConstraints="NO" id="4kb-A2-3k3">
-                                <rect key="frame" x="0.0" y="363" width="414" height="100"/>
+                                <rect key="frame" x="0.0" y="250" width="414" height="100"/>
                             </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="料金を入力して下さい。" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="hoL-A9-24q">
-                                <rect key="frame" x="114" y="273" width="185" height="30"/>
+                                <rect key="frame" x="114" y="134" width="185" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="人数を入力して下さい。" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="xJ8-wM-sfd">
-                                <rect key="frame" x="114" y="393" width="185" height="30"/>
+                                <rect key="frame" x="114" y="285" width="185" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mZm-QF-wTZ">
-                                <rect key="frame" x="244" y="528" width="51" height="31"/>
+                                <rect key="frame" x="249" y="474" width="51" height="31"/>
                             </switch>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ypb-hm-qcV">
+                                <rect key="frame" x="-4" y="635" width="457" height="121"/>
+                                <state key="normal" title="Button" image="割勘ボタン.png"/>
+                                <connections>
+                                    <segue destination="6IQ-Fb-GBr" kind="presentation" identifier="ResultView" id="Yj6-Kv-RkM"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
@@ -65,7 +65,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2u2-PX-381" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="oWt-tI-Z8B">
                     <connections>
-                        <action selector="tapView:" destination="YUy-xm-rM8" id="B0t-Wh-gWx"/>
+                        <action selector="tapView:" destination="YUy-xm-rM8" id="wNk-sW-KWp"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
@@ -83,47 +83,47 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jUy-OR-2hA">
-                                <rect key="frame" x="-73" y="646" width="393" height="90"/>
-                                <state key="normal" title="Button" image="Button02.png"/>
-                                <connections>
-                                    <action selector="top:" destination="6IQ-Fb-GBr" eventType="touchUpInside" id="G5v-GG-KYR"/>
-                                </connections>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="端数ラベル.png" translatesAutoresizingMaskIntoConstraints="NO" id="qhb-QR-mHf">
-                                <rect key="frame" x="-1" y="528" width="415" height="60"/>
+                                <rect key="frame" x="-1" y="500" width="415" height="60"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F5e-AZ-PBt">
-                                <rect key="frame" x="120" y="533" width="200" height="50"/>
+                                <rect key="frame" x="120" y="505" width="200" height="50"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Resultラベル.png" translatesAutoresizingMaskIntoConstraints="NO" id="Fof-2v-ZVT">
-                                <rect key="frame" x="0.0" y="364" width="414" height="100"/>
+                                <rect key="frame" x="0.0" y="286" width="414" height="100"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1AX-y9-ZO5">
-                                <rect key="frame" x="-3" y="362" width="320" height="90"/>
+                                <rect key="frame" x="-3" y="286" width="320" height="90"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="80"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Label1.png" translatesAutoresizingMaskIntoConstraints="NO" id="oue-OY-DCz">
-                                <rect key="frame" x="0.0" y="308" width="414" height="61"/>
+                                <rect key="frame" x="0.0" y="230" width="414" height="61"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="タイトルLabel.png" translatesAutoresizingMaskIntoConstraints="NO" id="ODf-A0-JaD">
-                                <rect key="frame" x="0.0" y="218" width="414" height="60"/>
+                                <rect key="frame" x="0.0" y="90" width="414" height="60"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Label2.png" translatesAutoresizingMaskIntoConstraints="NO" id="uU6-JB-iBg">
-                                <rect key="frame" x="0.0" y="461" width="414" height="61"/>
+                                <rect key="frame" x="0.0" y="383" width="414" height="61"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qTu-jD-hxQ">
+                                <rect key="frame" x="-1" y="635" width="469" height="118"/>
+                                <state key="normal" title="Button" image="Topボタン.png"/>
+                                <connections>
+                                    <action selector="top:" destination="6IQ-Fb-GBr" eventType="touchUpInside" id="0Kf-Um-20O"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
-                        <outlet property="hasuLabel" destination="F5e-AZ-PBt" id="xSl-67-3jB"/>
-                        <outlet property="resultLabel" destination="1AX-y9-ZO5" id="bSy-iq-lsE"/>
+                        <outlet property="hasuLabel" destination="F5e-AZ-PBt" id="cGm-lG-W3j"/>
+                        <outlet property="resultLabel" destination="1AX-y9-ZO5" id="WpD-gm-PL4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hYc-gn-iBB" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -132,14 +132,14 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Button01.png" width="390" height="104"/>
-        <image name="Button02.png" width="461" height="90"/>
         <image name="Label1.png" width="320" height="54"/>
         <image name="Label2.png" width="320" height="54"/>
         <image name="Resultラベル.png" width="320" height="93"/>
         <image name="Swichラベル.png" width="320" height="100"/>
+        <image name="Topボタン.png" width="415" height="118"/>
         <image name="タイトルLabel.png" width="320" height="52"/>
         <image name="人数Label.png" width="377" height="94"/>
+        <image name="割勘ボタン.png" width="418" height="121"/>
         <image name="料金Label.png" width="377" height="94"/>
         <image name="端数ラベル.png" width="321" height="50"/>
     </resources>
