@@ -7,32 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7205716D1C85ED5B000A0FBE /* 3.5inch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7205716C1C85ED5B000A0FBE /* 3.5inch.storyboard */; };
 		7205716F1C85ED6C000A0FBE /* 4.7inch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7205716E1C85ED6C000A0FBE /* 4.7inch.storyboard */; };
 		720571711C85ED88000A0FBE /* 5.5inch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 720571701C85ED88000A0FBE /* 5.5inch.storyboard */; };
 		720874821C32858B00380660 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720874811C32858B00380660 /* AppDelegate.swift */; };
 		720874841C32858B00380660 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720874831C32858B00380660 /* ViewController.swift */; };
 		720874871C32858B00380660 /* 4inch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 720874851C32858B00380660 /* 4inch.storyboard */; };
-		720874891C32858B00380660 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 720874881C32858B00380660 /* Assets.xcassets */; };
 		7208748C1C32858B00380660 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7208748A1C32858B00380660 /* LaunchScreen.storyboard */; };
 		720874971C32858B00380660 /* MinwariTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720874961C32858B00380660 /* MinwariTests.swift */; };
 		720874A21C32858B00380660 /* MinwariUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720874A11C32858B00380660 /* MinwariUITests.swift */; };
+		722739011C99639C0062184B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 722739001C99639C0062184B /* Assets.xcassets */; };
+		7244DADF1D2951BD00673961 /* iPad – 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7244DAC31D2951BD00673961 /* iPad – 1.png */; };
+		7244DAE01D2951BD00673961 /* iPad – 1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7244DAC41D2951BD00673961 /* iPad – 1@2x.png */; };
+		7244DAE11D2951BD00673961 /* iPad – 1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7244DAC51D2951BD00673961 /* iPad – 1@3x.png */; };
+		7244DAE21D2951BD00673961 /* iPad – 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7244DAC61D2951BD00673961 /* iPad – 2.png */; };
+		7244DAE31D2951BD00673961 /* iPad – 2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7244DAC71D2951BD00673961 /* iPad – 2@2x.png */; };
+		7244DAE41D2951BD00673961 /* iPad – 2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7244DAC81D2951BD00673961 /* iPad – 2@3x.png */; };
+		7244DAE51D2951BD00673961 /* iPhone 6 – 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7244DACA1D2951BD00673961 /* iPhone 6 – 1.png */; };
+		7244DAE61D2951BD00673961 /* iPhone 6 – 1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7244DACB1D2951BD00673961 /* iPhone 6 – 1@2x.png */; };
+		7244DAE71D2951BD00673961 /* iPhone 6 – 1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7244DACC1D2951BD00673961 /* iPhone 6 – 1@3x.png */; };
+		7244DAE81D2951BD00673961 /* iPhone 6 – 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7244DACD1D2951BD00673961 /* iPhone 6 – 2.png */; };
+		7244DAE91D2951BD00673961 /* iPhone 6 – 2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7244DACE1D2951BD00673961 /* iPhone 6 – 2@2x.png */; };
+		7244DAEA1D2951BD00673961 /* iPhone 6 – 2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7244DACF1D2951BD00673961 /* iPhone 6 – 2@3x.png */; };
+		7244DAEB1D2951BD00673961 /* iPhone 5SE – 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7244DAD11D2951BD00673961 /* iPhone 5SE – 1.png */; };
+		7244DAEC1D2951BD00673961 /* iPhone 5SE – 1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7244DAD21D2951BD00673961 /* iPhone 5SE – 1@2x.png */; };
+		7244DAED1D2951BD00673961 /* iPhone 5SE – 1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7244DAD31D2951BD00673961 /* iPhone 5SE – 1@3x.png */; };
+		7244DAEE1D2951BD00673961 /* iPhone 5SE – 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7244DAD41D2951BD00673961 /* iPhone 5SE – 2.png */; };
+		7244DAEF1D2951BD00673961 /* iPhone 5SE – 2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7244DAD51D2951BD00673961 /* iPhone 5SE – 2@2x.png */; };
+		7244DAF01D2951BD00673961 /* iPhone 5SE – 2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7244DAD61D2951BD00673961 /* iPhone 5SE – 2@3x.png */; };
+		7244DAF11D2951BD00673961 /* iPhone 6 Plus – 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7244DAD81D2951BD00673961 /* iPhone 6 Plus – 1.png */; };
+		7244DAF21D2951BD00673961 /* iPhone 6 Plus – 1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7244DAD91D2951BD00673961 /* iPhone 6 Plus – 1@2x.png */; };
+		7244DAF31D2951BD00673961 /* iPhone 6 Plus – 1@3x 22.52.55.png in Resources */ = {isa = PBXBuildFile; fileRef = 7244DADA1D2951BD00673961 /* iPhone 6 Plus – 1@3x 22.52.55.png */; };
+		7244DAF41D2951BD00673961 /* iPhone 6 Plus – 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7244DADB1D2951BD00673961 /* iPhone 6 Plus – 2.png */; };
+		7244DAF51D2951BD00673961 /* iPhone 6 Plus – 2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7244DADC1D2951BD00673961 /* iPhone 6 Plus – 2@2x.png */; };
+		7244DAF61D2951BD00673961 /* iPhone 6 Plus – 2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7244DADD1D2951BD00673961 /* iPhone 6 Plus – 2@3x.png */; };
+		7244DAF71D2951BD00673961 /* みん割新デザイン（iPhone・iPad）.xd in Resources */ = {isa = PBXBuildFile; fileRef = 7244DADE1D2951BD00673961 /* みん割新デザイン（iPhone・iPad）.xd */; };
 		72662AFF1C465E1500A8B714 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72662AFE1C465E1500A8B714 /* ResultViewController.swift */; };
-		72F4BDB11C90018B00BAB405 /* TOPボタン.png in Resources */ = {isa = PBXBuildFile; fileRef = 72F4BD851C90018B00BAB405 /* TOPボタン.png */; };
-		72F4BDB21C90018B00BAB405 /* 割り勘ボタン.png in Resources */ = {isa = PBXBuildFile; fileRef = 72F4BD861C90018B00BAB405 /* 割り勘ボタン.png */; };
-		72F4BDB51C90018B00BAB405 /* Topボタン.png in Resources */ = {isa = PBXBuildFile; fileRef = 72F4BD8B1C90018B00BAB405 /* Topボタン.png */; };
-		72F4BDB61C90018B00BAB405 /* 割勘ボタン.png in Resources */ = {isa = PBXBuildFile; fileRef = 72F4BD8C1C90018B00BAB405 /* 割勘ボタン.png */; };
-		72F4BDC31C90018B00BAB405 /* Label1.png in Resources */ = {isa = PBXBuildFile; fileRef = 72F4BD9D1C90018B00BAB405 /* Label1.png */; };
-		72F4BDC41C90018B00BAB405 /* Label2.png in Resources */ = {isa = PBXBuildFile; fileRef = 72F4BD9E1C90018B00BAB405 /* Label2.png */; };
-		72F4BDC51C90018B00BAB405 /* Resultラベル.png in Resources */ = {isa = PBXBuildFile; fileRef = 72F4BD9F1C90018B00BAB405 /* Resultラベル.png */; };
-		72F4BDC61C90018B00BAB405 /* Swichラベル.png in Resources */ = {isa = PBXBuildFile; fileRef = 72F4BDA01C90018B00BAB405 /* Swichラベル.png */; };
-		72F4BDC71C90018B00BAB405 /* タイトルLabel.png in Resources */ = {isa = PBXBuildFile; fileRef = 72F4BDA11C90018B00BAB405 /* タイトルLabel.png */; };
-		72F4BDC81C90018B00BAB405 /* 人数Label.png in Resources */ = {isa = PBXBuildFile; fileRef = 72F4BDA21C90018B00BAB405 /* 人数Label.png */; };
-		72F4BDC91C90018B00BAB405 /* 料金Label.png in Resources */ = {isa = PBXBuildFile; fileRef = 72F4BDA31C90018B00BAB405 /* 料金Label.png */; };
-		72F4BDCA1C90018B00BAB405 /* 端数ラベル.png in Resources */ = {isa = PBXBuildFile; fileRef = 72F4BDA41C90018B00BAB405 /* 端数ラベル.png */; };
-		72F4BDCB1C90018B00BAB405 /* Swichラベル.png in Resources */ = {isa = PBXBuildFile; fileRef = 72F4BDA61C90018B00BAB405 /* Swichラベル.png */; };
-		72F4BDCC1C90018B00BAB405 /* 人数Label.png in Resources */ = {isa = PBXBuildFile; fileRef = 72F4BDA71C90018B00BAB405 /* 人数Label.png */; };
-		72F4BDCD1C90018B00BAB405 /* 料金Label.png in Resources */ = {isa = PBXBuildFile; fileRef = 72F4BDA81C90018B00BAB405 /* 料金Label.png */; };
+		72FB00541C95B25B0044DD1F /* iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72FB00531C95B25B0044DD1F /* iPad.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,14 +63,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7205716C1C85ED5B000A0FBE /* 3.5inch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = 3.5inch.storyboard; path = ../3.5inch.storyboard; sourceTree = "<group>"; };
 		7205716E1C85ED6C000A0FBE /* 4.7inch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = 4.7inch.storyboard; path = ../4.7inch.storyboard; sourceTree = "<group>"; };
 		720571701C85ED88000A0FBE /* 5.5inch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = 5.5inch.storyboard; path = ../5.5inch.storyboard; sourceTree = "<group>"; };
 		7208747E1C32858B00380660 /* Minwari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Minwari.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		720874811C32858B00380660 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		720874831C32858B00380660 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		720874861C32858B00380660 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/4inch.storyboard; sourceTree = "<group>"; };
-		720874881C32858B00380660 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7208748B1C32858B00380660 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7208748D1C32858B00380660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		720874921C32858B00380660 /* MinwariTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinwariTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,22 +77,34 @@
 		7208749D1C32858B00380660 /* MinwariUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinwariUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		720874A11C32858B00380660 /* MinwariUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinwariUITests.swift; sourceTree = "<group>"; };
 		720874A31C32858B00380660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		722739001C99639C0062184B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7244DAC31D2951BD00673961 /* iPad – 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad – 1.png"; sourceTree = "<group>"; };
+		7244DAC41D2951BD00673961 /* iPad – 1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad – 1@2x.png"; sourceTree = "<group>"; };
+		7244DAC51D2951BD00673961 /* iPad – 1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad – 1@3x.png"; sourceTree = "<group>"; };
+		7244DAC61D2951BD00673961 /* iPad – 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad – 2.png"; sourceTree = "<group>"; };
+		7244DAC71D2951BD00673961 /* iPad – 2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad – 2@2x.png"; sourceTree = "<group>"; };
+		7244DAC81D2951BD00673961 /* iPad – 2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad – 2@3x.png"; sourceTree = "<group>"; };
+		7244DACA1D2951BD00673961 /* iPhone 6 – 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 6 – 1.png"; sourceTree = "<group>"; };
+		7244DACB1D2951BD00673961 /* iPhone 6 – 1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 6 – 1@2x.png"; sourceTree = "<group>"; };
+		7244DACC1D2951BD00673961 /* iPhone 6 – 1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 6 – 1@3x.png"; sourceTree = "<group>"; };
+		7244DACD1D2951BD00673961 /* iPhone 6 – 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 6 – 2.png"; sourceTree = "<group>"; };
+		7244DACE1D2951BD00673961 /* iPhone 6 – 2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 6 – 2@2x.png"; sourceTree = "<group>"; };
+		7244DACF1D2951BD00673961 /* iPhone 6 – 2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 6 – 2@3x.png"; sourceTree = "<group>"; };
+		7244DAD11D2951BD00673961 /* iPhone 5SE – 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 5SE – 1.png"; sourceTree = "<group>"; };
+		7244DAD21D2951BD00673961 /* iPhone 5SE – 1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 5SE – 1@2x.png"; sourceTree = "<group>"; };
+		7244DAD31D2951BD00673961 /* iPhone 5SE – 1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 5SE – 1@3x.png"; sourceTree = "<group>"; };
+		7244DAD41D2951BD00673961 /* iPhone 5SE – 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 5SE – 2.png"; sourceTree = "<group>"; };
+		7244DAD51D2951BD00673961 /* iPhone 5SE – 2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 5SE – 2@2x.png"; sourceTree = "<group>"; };
+		7244DAD61D2951BD00673961 /* iPhone 5SE – 2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 5SE – 2@3x.png"; sourceTree = "<group>"; };
+		7244DAD81D2951BD00673961 /* iPhone 6 Plus – 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 6 Plus – 1.png"; sourceTree = "<group>"; };
+		7244DAD91D2951BD00673961 /* iPhone 6 Plus – 1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 6 Plus – 1@2x.png"; sourceTree = "<group>"; };
+		7244DADA1D2951BD00673961 /* iPhone 6 Plus – 1@3x 22.52.55.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 6 Plus – 1@3x 22.52.55.png"; sourceTree = "<group>"; };
+		7244DADB1D2951BD00673961 /* iPhone 6 Plus – 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 6 Plus – 2.png"; sourceTree = "<group>"; };
+		7244DADC1D2951BD00673961 /* iPhone 6 Plus – 2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 6 Plus – 2@2x.png"; sourceTree = "<group>"; };
+		7244DADD1D2951BD00673961 /* iPhone 6 Plus – 2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 6 Plus – 2@3x.png"; sourceTree = "<group>"; };
+		7244DADE1D2951BD00673961 /* みん割新デザイン（iPhone・iPad）.xd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "みん割新デザイン（iPhone・iPad）.xd"; sourceTree = "<group>"; };
 		72662AFE1C465E1500A8B714 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultViewController.swift; path = ../ResultViewController.swift; sourceTree = "<group>"; };
-		72F4BD851C90018B00BAB405 /* TOPボタン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TOPボタン.png"; sourceTree = "<group>"; };
-		72F4BD861C90018B00BAB405 /* 割り勘ボタン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "割り勘ボタン.png"; sourceTree = "<group>"; };
-		72F4BD8B1C90018B00BAB405 /* Topボタン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Topボタン.png"; sourceTree = "<group>"; };
-		72F4BD8C1C90018B00BAB405 /* 割勘ボタン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "割勘ボタン.png"; sourceTree = "<group>"; };
-		72F4BD9D1C90018B00BAB405 /* Label1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Label1.png; sourceTree = "<group>"; };
-		72F4BD9E1C90018B00BAB405 /* Label2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Label2.png; sourceTree = "<group>"; };
-		72F4BD9F1C90018B00BAB405 /* Resultラベル.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Resultラベル.png"; sourceTree = "<group>"; };
-		72F4BDA01C90018B00BAB405 /* Swichラベル.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Swichラベル.png"; sourceTree = "<group>"; };
-		72F4BDA11C90018B00BAB405 /* タイトルLabel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "タイトルLabel.png"; sourceTree = "<group>"; };
-		72F4BDA21C90018B00BAB405 /* 人数Label.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "人数Label.png"; sourceTree = "<group>"; };
-		72F4BDA31C90018B00BAB405 /* 料金Label.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "料金Label.png"; sourceTree = "<group>"; };
-		72F4BDA41C90018B00BAB405 /* 端数ラベル.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "端数ラベル.png"; sourceTree = "<group>"; };
-		72F4BDA61C90018B00BAB405 /* Swichラベル.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Swichラベル.png"; sourceTree = "<group>"; };
-		72F4BDA71C90018B00BAB405 /* 人数Label.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "人数Label.png"; sourceTree = "<group>"; };
-		72F4BDA81C90018B00BAB405 /* 料金Label.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "料金Label.png"; sourceTree = "<group>"; };
+		72FB00531C95B25B0044DD1F /* iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iPad.storyboard; path = ../iPad.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +135,7 @@
 		720874751C32858B00380660 = {
 			isa = PBXGroup;
 			children = (
+				7244DAC11D2951BD00673961 /* みん割新デザイン */,
 				720874801C32858B00380660 /* Minwari */,
 				720874951C32858B00380660 /* MinwariTests */,
 				720874A01C32858B00380660 /* MinwariUITests */,
@@ -138,14 +159,13 @@
 				720874811C32858B00380660 /* AppDelegate.swift */,
 				720874831C32858B00380660 /* ViewController.swift */,
 				72662AFE1C465E1500A8B714 /* ResultViewController.swift */,
+				72FB00531C95B25B0044DD1F /* iPad.storyboard */,
 				720571701C85ED88000A0FBE /* 5.5inch.storyboard */,
 				7205716E1C85ED6C000A0FBE /* 4.7inch.storyboard */,
 				720874851C32858B00380660 /* 4inch.storyboard */,
-				7205716C1C85ED5B000A0FBE /* 3.5inch.storyboard */,
-				72F4BD821C90018B00BAB405 /* Minwari パーツセット */,
-				720874881C32858B00380660 /* Assets.xcassets */,
 				7208748A1C32858B00380660 /* LaunchScreen.storyboard */,
 				7208748D1C32858B00380660 /* Info.plist */,
+				722739001C99639C0062184B /* Assets.xcassets */,
 			);
 			path = Minwari;
 			sourceTree = "<group>";
@@ -168,74 +188,68 @@
 			path = MinwariUITests;
 			sourceTree = "<group>";
 		};
-		72F4BD821C90018B00BAB405 /* Minwari パーツセット */ = {
+		7244DAC11D2951BD00673961 /* みん割新デザイン */ = {
 			isa = PBXGroup;
 			children = (
-				72F4BD831C90018B00BAB405 /* Button */,
-				72F4BD8F1C90018B00BAB405 /* Label */,
+				7244DAC21D2951BD00673961 /* iPad */,
+				7244DAC91D2951BD00673961 /* iPhone4.7inch */,
+				7244DAD01D2951BD00673961 /* iPhone4inch */,
+				7244DAD71D2951BD00673961 /* iPhone5.5inch */,
+				7244DADE1D2951BD00673961 /* みん割新デザイン（iPhone・iPad）.xd */,
 			);
-			path = "Minwari パーツセット";
-			sourceTree = SOURCE_ROOT;
-		};
-		72F4BD831C90018B00BAB405 /* Button */ = {
-			isa = PBXGroup;
-			children = (
-				72F4BD841C90018B00BAB405 /* 3.5,4,4.7inch用 */,
-				72F4BD871C90018B00BAB405 /* 5.5inch用 */,
-			);
-			path = Button;
+			path = "みん割新デザイン";
 			sourceTree = "<group>";
 		};
-		72F4BD841C90018B00BAB405 /* 3.5,4,4.7inch用 */ = {
+		7244DAC21D2951BD00673961 /* iPad */ = {
 			isa = PBXGroup;
 			children = (
-				72F4BD851C90018B00BAB405 /* TOPボタン.png */,
-				72F4BD861C90018B00BAB405 /* 割り勘ボタン.png */,
+				7244DAC31D2951BD00673961 /* iPad – 1.png */,
+				7244DAC41D2951BD00673961 /* iPad – 1@2x.png */,
+				7244DAC51D2951BD00673961 /* iPad – 1@3x.png */,
+				7244DAC61D2951BD00673961 /* iPad – 2.png */,
+				7244DAC71D2951BD00673961 /* iPad – 2@2x.png */,
+				7244DAC81D2951BD00673961 /* iPad – 2@3x.png */,
 			);
-			path = "3.5,4,4.7inch用";
+			path = iPad;
 			sourceTree = "<group>";
 		};
-		72F4BD871C90018B00BAB405 /* 5.5inch用 */ = {
+		7244DAC91D2951BD00673961 /* iPhone4.7inch */ = {
 			isa = PBXGroup;
 			children = (
-				72F4BD8B1C90018B00BAB405 /* Topボタン.png */,
-				72F4BD8C1C90018B00BAB405 /* 割勘ボタン.png */,
+				7244DACA1D2951BD00673961 /* iPhone 6 – 1.png */,
+				7244DACB1D2951BD00673961 /* iPhone 6 – 1@2x.png */,
+				7244DACC1D2951BD00673961 /* iPhone 6 – 1@3x.png */,
+				7244DACD1D2951BD00673961 /* iPhone 6 – 2.png */,
+				7244DACE1D2951BD00673961 /* iPhone 6 – 2@2x.png */,
+				7244DACF1D2951BD00673961 /* iPhone 6 – 2@3x.png */,
 			);
-			path = "5.5inch用";
+			path = iPhone4.7inch;
 			sourceTree = "<group>";
 		};
-		72F4BD8F1C90018B00BAB405 /* Label */ = {
+		7244DAD01D2951BD00673961 /* iPhone4inch */ = {
 			isa = PBXGroup;
 			children = (
-				72F4BD901C90018B00BAB405 /* 3.5,4,4.7inch用 */,
-				72F4BDA51C90018B00BAB405 /* 5.5inch用 */,
+				7244DAD11D2951BD00673961 /* iPhone 5SE – 1.png */,
+				7244DAD21D2951BD00673961 /* iPhone 5SE – 1@2x.png */,
+				7244DAD31D2951BD00673961 /* iPhone 5SE – 1@3x.png */,
+				7244DAD41D2951BD00673961 /* iPhone 5SE – 2.png */,
+				7244DAD51D2951BD00673961 /* iPhone 5SE – 2@2x.png */,
+				7244DAD61D2951BD00673961 /* iPhone 5SE – 2@3x.png */,
 			);
-			path = Label;
+			path = iPhone4inch;
 			sourceTree = "<group>";
 		};
-		72F4BD901C90018B00BAB405 /* 3.5,4,4.7inch用 */ = {
+		7244DAD71D2951BD00673961 /* iPhone5.5inch */ = {
 			isa = PBXGroup;
 			children = (
-				72F4BD9D1C90018B00BAB405 /* Label1.png */,
-				72F4BD9E1C90018B00BAB405 /* Label2.png */,
-				72F4BD9F1C90018B00BAB405 /* Resultラベル.png */,
-				72F4BDA01C90018B00BAB405 /* Swichラベル.png */,
-				72F4BDA11C90018B00BAB405 /* タイトルLabel.png */,
-				72F4BDA21C90018B00BAB405 /* 人数Label.png */,
-				72F4BDA31C90018B00BAB405 /* 料金Label.png */,
-				72F4BDA41C90018B00BAB405 /* 端数ラベル.png */,
+				7244DAD81D2951BD00673961 /* iPhone 6 Plus – 1.png */,
+				7244DAD91D2951BD00673961 /* iPhone 6 Plus – 1@2x.png */,
+				7244DADA1D2951BD00673961 /* iPhone 6 Plus – 1@3x 22.52.55.png */,
+				7244DADB1D2951BD00673961 /* iPhone 6 Plus – 2.png */,
+				7244DADC1D2951BD00673961 /* iPhone 6 Plus – 2@2x.png */,
+				7244DADD1D2951BD00673961 /* iPhone 6 Plus – 2@3x.png */,
 			);
-			path = "3.5,4,4.7inch用";
-			sourceTree = "<group>";
-		};
-		72F4BDA51C90018B00BAB405 /* 5.5inch用 */ = {
-			isa = PBXGroup;
-			children = (
-				72F4BDA61C90018B00BAB405 /* Swichラベル.png */,
-				72F4BDA71C90018B00BAB405 /* 人数Label.png */,
-				72F4BDA81C90018B00BAB405 /* 料金Label.png */,
-			);
-			path = "5.5inch用";
+			path = iPhone5.5inch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -342,27 +356,37 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72F4BDC81C90018B00BAB405 /* 人数Label.png in Resources */,
-				72F4BDCA1C90018B00BAB405 /* 端数ラベル.png in Resources */,
-				72F4BDCC1C90018B00BAB405 /* 人数Label.png in Resources */,
-				72F4BDC31C90018B00BAB405 /* Label1.png in Resources */,
-				72F4BDB21C90018B00BAB405 /* 割り勘ボタン.png in Resources */,
+				7244DAF01D2951BD00673961 /* iPhone 5SE – 2@3x.png in Resources */,
+				7244DAF51D2951BD00673961 /* iPhone 6 Plus – 2@2x.png in Resources */,
 				7208748C1C32858B00380660 /* LaunchScreen.storyboard in Resources */,
-				72F4BDB51C90018B00BAB405 /* Topボタン.png in Resources */,
-				7205716D1C85ED5B000A0FBE /* 3.5inch.storyboard in Resources */,
-				72F4BDB61C90018B00BAB405 /* 割勘ボタン.png in Resources */,
-				72F4BDCB1C90018B00BAB405 /* Swichラベル.png in Resources */,
-				72F4BDC61C90018B00BAB405 /* Swichラベル.png in Resources */,
-				72F4BDC51C90018B00BAB405 /* Resultラベル.png in Resources */,
-				72F4BDCD1C90018B00BAB405 /* 料金Label.png in Resources */,
+				7244DAE81D2951BD00673961 /* iPhone 6 – 2.png in Resources */,
+				7244DAF61D2951BD00673961 /* iPhone 6 Plus – 2@3x.png in Resources */,
+				7244DAE61D2951BD00673961 /* iPhone 6 – 1@2x.png in Resources */,
+				7244DAF31D2951BD00673961 /* iPhone 6 Plus – 1@3x 22.52.55.png in Resources */,
+				7244DAEA1D2951BD00673961 /* iPhone 6 – 2@3x.png in Resources */,
+				7244DAE71D2951BD00673961 /* iPhone 6 – 1@3x.png in Resources */,
+				7244DAF21D2951BD00673961 /* iPhone 6 Plus – 1@2x.png in Resources */,
 				720571711C85ED88000A0FBE /* 5.5inch.storyboard in Resources */,
-				720874891C32858B00380660 /* Assets.xcassets in Resources */,
+				7244DAF11D2951BD00673961 /* iPhone 6 Plus – 1.png in Resources */,
+				7244DAF41D2951BD00673961 /* iPhone 6 Plus – 2.png in Resources */,
+				722739011C99639C0062184B /* Assets.xcassets in Resources */,
+				7244DAED1D2951BD00673961 /* iPhone 5SE – 1@3x.png in Resources */,
+				7244DADF1D2951BD00673961 /* iPad – 1.png in Resources */,
+				7244DAE41D2951BD00673961 /* iPad – 2@3x.png in Resources */,
+				7244DAE21D2951BD00673961 /* iPad – 2.png in Resources */,
 				7205716F1C85ED6C000A0FBE /* 4.7inch.storyboard in Resources */,
-				72F4BDC41C90018B00BAB405 /* Label2.png in Resources */,
-				72F4BDC91C90018B00BAB405 /* 料金Label.png in Resources */,
+				72FB00541C95B25B0044DD1F /* iPad.storyboard in Resources */,
+				7244DAE11D2951BD00673961 /* iPad – 1@3x.png in Resources */,
+				7244DAE91D2951BD00673961 /* iPhone 6 – 2@2x.png in Resources */,
+				7244DAEC1D2951BD00673961 /* iPhone 5SE – 1@2x.png in Resources */,
+				7244DAE01D2951BD00673961 /* iPad – 1@2x.png in Resources */,
+				7244DAE31D2951BD00673961 /* iPad – 2@2x.png in Resources */,
+				7244DAE51D2951BD00673961 /* iPhone 6 – 1.png in Resources */,
+				7244DAEB1D2951BD00673961 /* iPhone 5SE – 1.png in Resources */,
+				7244DAEE1D2951BD00673961 /* iPhone 5SE – 2.png in Resources */,
+				7244DAF71D2951BD00673961 /* みん割新デザイン（iPhone・iPad）.xd in Resources */,
 				720874871C32858B00380660 /* 4inch.storyboard in Resources */,
-				72F4BDC71C90018B00BAB405 /* タイトルLabel.png in Resources */,
-				72F4BDB11C90018B00BAB405 /* TOPボタン.png in Resources */,
+				7244DAEF1D2951BD00673961 /* iPhone 5SE – 2@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,6 +553,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Minwari/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -542,6 +567,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Minwari/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

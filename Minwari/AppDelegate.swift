@@ -17,12 +17,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UITextFieldDelegate {
         var storyboard = UIStoryboard()
         let height = UIScreen.mainScreen().bounds.size.height
         
-        if height == 480 {
-            storyboard = UIStoryboard(name: "3.5inch", bundle: nil)
-        }else if height == 667 {
+        if height == 667 {
             storyboard = UIStoryboard(name: "4.7inch", bundle: nil)
         }else if height == 736 {
             storyboard = UIStoryboard(name: "5.5inch", bundle: nil)
+        }else if height == 1024 {
+            storyboard = UIStoryboard(name: "iPad", bundle: nil)
         } else {
             storyboard = UIStoryboard(name: "4inch", bundle: nil)
         }
